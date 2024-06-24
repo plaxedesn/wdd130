@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/DM+Serif+Text?query=serif+text/css2?family=font-name&family=optional-2nd-font-name&display=swap);
+@import url(https://fonts.google.com/specimen/DM+Serif+Text?);
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
