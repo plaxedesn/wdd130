@@ -15,9 +15,9 @@ body {
     --paragraph-font: 'Source sans 3', serif;
 
     --nav-background-color: #023047;
-    --nav-link-color:#fb8500
-    --nav-hover-link-color: #219ebc
-    --nav-hover-background-color: #8ecae6
+    --nav-link-color:#fb8500;
+    --nav-hover-link-color: #219ebc;
+    --nav-hover-background-color: #8ecae6;
 }
 body {
     font-family: var(--paragraph-font);
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 header {
-    padding: 20;
+    padding: 20px;
     background-color: var(--accent1-color);
 }
 p {
