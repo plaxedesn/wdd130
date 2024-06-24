@@ -14,10 +14,10 @@ body {
     --heading-font: 'DM Serif Text', serif;
     --paragraph-font: 'Source sans 3', serif;
 
-    --nav-background-color: #XXXXXX;
-    --nav-link-color:#xxxxxxx
-    --nav-hover-link-color: #xxxxxxx
-    --nav-hover-background-color: #xxxxxx
+    --nav-background-color: #023047;
+    --nav-link-color:#fb8500;
+    --nav-hover-link-color: #219ebc;
+    --nav-hover-background-color: #8ecae6;
 }
 body {
     font-family: var(--paragraph-font);
