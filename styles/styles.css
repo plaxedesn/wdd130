@@ -26,7 +26,7 @@ nav a {
 h1 {
     color: steelblue;
     border-bottom: 2px solid;
-    border-bottom-style: groove;
+    border-bottom-style: solid;
 }
 img {
     width: 150px; 
@@ -36,7 +36,8 @@ img {
     box-shadow: 0 0 30px gray ;
 }
 p {
-    padding: 0;
+    padding: 1px;
+    width: 100rem;
 }
 main {
     grid-column: 2;
@@ -49,11 +50,11 @@ aside {
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: justify;
     position: relative;
 }
 aside img {
-    width: 200px;
+    width: 150px;
     height: auto;
 }
 aside h2 {
@@ -80,6 +81,8 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+    inline-size: 150px;
+    overflow-wrap: break-word;
 }
 header, .grid, footer {
     max-width: 840px;

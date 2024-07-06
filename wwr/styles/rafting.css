@@ -30,14 +30,24 @@ h1, h2, h3, h4, h5, h6 {
 header {
     padding: 20px;
     background-color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+
 }
 p {
     padding: 25px;
+    display: flex;
+    text-align: start;
+    justify-content: space-around;
 }
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    text-align: right;
 }
 
 nav a {
@@ -45,6 +55,8 @@ nav a {
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 nav a:link, nav a:visited{
@@ -68,4 +80,15 @@ article{
 }
 image{
     object-position: 50%;
+    display: flex;
+    justify-content: flex-end;  
+}
+h2 {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
 }
