@@ -1,0 +1,60 @@
+@import url(https://fonts.google.com/specimen/Roboto?preview.text=questions);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    color: rgb(0, 7, 3);
+    background: rgb(227, 228, 222);
+}
+header{
+    margin: 0 auto ;
+    width: 450px;
+}
+h1 {
+    margin: 1rem;
+    font-size: 2em;
+    color: rgb(19, 201, 59);
+    text-align: end;
+}
+form {
+    width: 550px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1p solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: rgb(202, 235, 201);
+    display: grid;
+}
+label, input, button, select, textarea {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+label {
+    text-align: center;
+    padding: 1rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+button {
+    margin: 1rem;
+    background-color: rgb(224, 231, 219);
+    color: rgb(11, 12, 10);
+    border: none;
+    border-radius: 5rem;
+    padding: 75re;
+    font-size: 1.2rem;
+}
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: black;
+    border-top: 1px solid #5ff07e;
+}
+
