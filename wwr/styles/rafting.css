@@ -47,7 +47,8 @@ nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
-    text-align: right;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 nav a {
@@ -55,8 +56,8 @@ nav a {
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
-    justify-content: flex-end;
-    align-items: flex-end;
+    display: flex;
+    align-items: center;
 }
 
 nav a:link, nav a:visited{
