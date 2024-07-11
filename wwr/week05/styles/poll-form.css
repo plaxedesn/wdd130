@@ -1,0 +1,91 @@
+@import url(https://fonts.google.com/specimen/Roboto?preview.text=questions);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(9, 14, 11);
+    background: rgb(26, 22, 16);
+}
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 2em;
+    color: deepskyblue;
+    text-align: end;
+}
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1p solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: aliceblue;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 2rem;
+    border: 1px solid rgba(210, 226, 167, 0.1);
+    padding: 1rem;
+}
+legend {
+    padding: 0.5rem;
+    color: deepskyblue;
+    font-size: 1.3rem;
+}
+label, input, button, select, textarea {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+label {
+    text-align: right;
+    padding: 1rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+input [type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+button {
+    margin: 1rem;
+    background-color: aqua;
+    color: aliceblue;
+    border: none;
+    border-radius: 5rem;
+    padding: 75re;
+    font-size: 1.2rem;
+}
+button:hover {
+    background-color: gold;
+}
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: black;
+    border-top: 1px solid #ccc;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1{
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
