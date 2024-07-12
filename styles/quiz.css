@@ -24,7 +24,7 @@ form {
     width: 550px;
     margin: 0 auto;
     padding: 1rem;
-    border: 1p solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     background-color: rgb(202, 235, 201);
     display: grid;
@@ -45,6 +45,7 @@ button {
     background-color: rgb(224, 231, 219);
     color: rgb(11, 12, 10);
     border: none;
+    padding: 75rex;
     border-radius: 5rem;
     font-size: 1.2rem;
 }
