@@ -3,6 +3,9 @@ body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 :root {
     --primary-color: #219ebc;
@@ -13,10 +16,10 @@ body {
     --heading-font: 'DM Serif Text', serif;
     --paragraph-font: 'Source sans 3', serif;
 
-    --nav-background-color: #023047;
-    --nav-link-color:#fb8500;
+    --nav-background-color: #94d4f5;
+    --nav-link-color:#d1b89b;
     --nav-hover-link-color: #219ebc;
-    --nav-hover-background-color: #8ecae6;
+    --nav-hover-background-color: #658696;
 }
 body {
     font-family: var(--paragraph-font);
@@ -31,11 +34,23 @@ header {
     padding: 20px;
     background-color: var(--accent1-color);
     display: grid;
+    justify-content: space-between;
     grid-template-columns: 120px 1fr 2fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
     max-width: 1000px;
-
+}
+header .logo {
+    width: 150px;
+}
+header nav {
+    display: flex;
+    gap: 20px;
+}
+header nav a {
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
 }
 p {
     padding: 25px;
@@ -91,7 +106,26 @@ h2 {
 footer {
     display: flex;
     justify-content: flex-end;
-    align-content: flex-start;
+    align-content: space-between;
+}
+footer .sociallinks{
+    margin-top: 10px;
+}
+footer .sociallinks a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s;
+    display: inline-block;
+    align-items: center;
+}
+footer .sociallinks a:hover {
+    color: #f0f0f0;
+}
+
+footer .sociallinks a:hover img {
+    transform: scale(1.1);
 }
 .contact-form {
     background: #fff;
@@ -172,7 +206,7 @@ footer {
     padding: 20px;
     text-align: center;
 }
->hero h2 {
+.hero h2 {
     margin-top: 0;
 }
 hero a.button {
@@ -186,7 +220,7 @@ hero a.button {
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    background-color: rgba(145, 255, 0, 0.952);
+    background-color: rgba(184, 187, 180, 0.952);
 }
 .trip-card{
     width: 30%;
@@ -218,4 +252,103 @@ hero a.button {
 }
 .trip table h2 {
     text-align: left;
+}
+.hero{
+    height: 400px;
+    background-image:image('images/hero.jpg');
+    background-size:cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 40px;
+    margin: 0;
+    font-style: normal;
+}
+.newsletter {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    margin: 20px;
+}
+.newsletter h2 {
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-size: small;
+}
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #3e87e7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.newsletter button:hover {
+    background-color: #555;
+}
+.call-to-action {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    font-family: cursive;
+  }
+
+.call-to-action .button {
+    padding: 10px 20px;
+    background-color: #287fe2;
+    color:#333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.call-to-action .btn:hover {
+    background-color: #555;
+    color: #fff;
+}
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.grid-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.grid-item h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.grid-item p {
+    margin: 0;
 }
