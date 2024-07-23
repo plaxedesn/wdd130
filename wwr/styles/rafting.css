@@ -288,17 +288,19 @@ figure figcaption {
     background-color: #555;
     color: #fff;
 }
+
 .content-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
-    pa
 }
+
 .employee-profiles {
     background-color: #f9f9f9;
     padding: 40px 20px;
     text-align: center;
 }
+
 .employee-profiles h2 {
     color: var(--primary-color);
     font-family: var(--heading-font);
@@ -306,7 +308,7 @@ figure figcaption {
 }
 
 .employee-profiles .profile {
-    display: inline-block
+    display: inline-block;
     width: 200px;
     margin: 20px;
     vertical-align: top;
@@ -324,40 +326,49 @@ figure figcaption {
     font-family: var(--paragraph-font);
     color: #666;
 }
+
 .trip-descriptions {
     display: flex;
     justify-content: space-around;
     padding: 20px;
     background-color: rgba(184, 187, 180, 0.952);
 }
-.trip-card{
+
+.trip-card {
     width: 30%;
     text-align: center;
 }
+
 .trip-card img {
     width: 100%;
     border-radius: 10px;
 }
+
 .trip-card h3 {
     margin-top: 10px;
 }
+
 .trip-table {
     padding: 20px;
     text-align: center;
 }
+
 .trip-table table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
 }
+
 .trip-table th, .trip-table td {
     padding: 10px;
     border: 1px solid #9e2c8f;
 }
+
 .trip-table th {
     background-color: #007BFF;
     color: white;
 }
-.trip table h2 {
+
+.trip-table h2 {
     text-align: left;
 }
